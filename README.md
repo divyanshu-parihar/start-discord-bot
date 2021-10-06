@@ -1,4 +1,4 @@
-# create-discord-bot
+# start-discord-bot
 An Developer friendly environment for your bot development.
 
 
