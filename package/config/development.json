@@ -1,13 +1,13 @@
 {
   "app": {
     "database": {
-      "string": "mongodb://127.0.0.1:27017/Invi-db"
+      "string": "mongodb://127.0.0.1:27017/<your db name>"
     },
-    "token": "ODkyMzA1NDc2MzM3OTQ2NjM1.YVK-Ow.Tv5oOEGpAJYeeAijPms1PL4IUMc",
-    "prefix": "?in-",
-    "roleName": "studying",
-    "roleId": "893458318138425364",
-    "channels": ["892305166924124210"],
-    "notify-channel": "893855234554753085"
+    "token": "",
+    "prefix": "?",
+    "roleName": "",
+    "roleId": "",
+    "channels": [],
+    "notify-channel": ""
   }
 }

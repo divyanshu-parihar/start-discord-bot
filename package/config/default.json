@@ -1,10 +1,10 @@
 {
   "app": {
     "database": {
-      "string": "mongodb://127.0.0.1:27017/<your-name>"
+      "string": "mongodb://127.0.0.1:27017/<your-db-name>"
     },
     "token": "",
-    "prefix": "?in",
+    "prefix": "?",
     "roleName":"",
     "roleId": "" 
   }
