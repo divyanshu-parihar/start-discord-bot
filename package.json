@@ -1,0 +1,38 @@
+{
+  "name": "create-discord-bot",
+  "version": "0.0.1",
+  "description": "Quickly create a Developer friendly Discord bot Development Env.",
+  "main": "index.js",
+  "bin": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "discord-bot",
+    "typescript",
+    "ts",
+    "mongodb"
+  ],
+  "author": "Divyanshu Parihar",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/divyanshu-parihar/create-discord-bot"
+  },
+  "bugs": {
+    "url": "https://github.com/divyanshu-parihar/create-discord-bot/issues"
+  },
+  "homepage": "https://github.com/divyanshu-parihar/create-discord-bot#readme",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "ncp": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/config": "^0.0.39",
+    "@types/mongoose": "^5.11.97",
+    "@types/node": "^16.10.3",
+    "discord-api-types": "^0.23.1",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.3"
+  }
+}
