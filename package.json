@@ -1,6 +1,6 @@
 {
   "name": "start-discord-bot",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Quickly create a Developer friendly Discord bot Development Environment",
   "main": "index.js",
   "bin": "index.js",
