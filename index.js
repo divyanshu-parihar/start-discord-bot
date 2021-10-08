@@ -15,6 +15,7 @@ var ncp = require("ncp").ncp;
     }
   );
   ncp.limit = 16;
+  console.log("ADDING Some COOL STUFF ... ")
   ncp(`${__dirname}/package`, ".", function (err) {
     if (err) {
       return console.error(err);
@@ -22,4 +23,5 @@ var ncp = require("ncp").ncp;
     console.log("Updated the package.json!");
     console.log("♥♥♥♥♥ HAPPY DEVELOPMENT ♥♥♥♥♥")
   });
+  console.log("Added some Template folders")
 })();

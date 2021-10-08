@@ -1,11 +1,5 @@
 import config from "config";
 import mongoose from "mongoose";
-
-// const databaseConfigurations:mongoose.ConnectOptions = {
-//   useNewUrlParser: true,
-//   useUnifiedTopology: true,
-// };
-
 /**
  * Initializes MongoDB connection using configs and logs status
  */
