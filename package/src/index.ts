@@ -53,7 +53,7 @@ client.on("messageCreate", async (message: any) => {
   const args = message.content.split(/ +/);
   // if (args.length < 1) return;
   const command = args.shift().toLowerCase().slice(prefix.length);
-  const commandFile = commands.find((_r, n) => n.includes(command));
+  const commandFile = commands.find((_r:any, n:any) => n.includes(command));
   if (!commandFile) return;
   else
     commandFile({
