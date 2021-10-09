@@ -15,7 +15,7 @@ var ncp = require("ncp").ncp;
     }
   );
   ncp.limit = 16;
-  console.log("ADDING Some COOL STUFF ... ")
+  console.log("ADDING PROJECT FOLDERS ... ")
   ncp(`${__dirname}/package`, ".", function (err) {
     if (err) {
       return console.error(err);
