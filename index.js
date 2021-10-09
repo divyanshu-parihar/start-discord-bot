@@ -5,7 +5,7 @@ var ncp = require("ncp").ncp;
 (async () => {
   console.log("Starting Project");
   exec(
-    "npm init -y && npm install discord.js @discord.js/collection mongoose config &&  npm install @types/config @types/mongoose @types/node discord-api-types ts-node typescript --save-dev && " +
+    "npm init -y && npm install discord.js mongoose config &&  npm install @types/config @types/mongoose @types/node discord-api-types ts-node typescript --save-dev && " +
       "node -e \"let pkg=require('./package.json'); pkg.scripts.dev='nodemon --exec ts-node ./src/index.ts'; pkg.scripts.prod='node ./dist/index.js' ;require('fs').writeFileSync('package.json', JSON.stringify(pkg, null, 2));\"",
     function (error, stdout, stderr) {
       console.log(stdout);
